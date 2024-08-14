@@ -10842,6 +10842,16 @@
     <carrier_config mcc="413" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
+    <!--斯里兰卡 Sri lanka Airtel-->
+    <carrier_config mcc="413" mnc="05">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+    <!--斯里兰卡 Sri lanka Hutch-->
+    <carrier_config mcc="413" mnc="09">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
     <!--北美-->
     <!--美国 AT&T-->
     <carrier_config mcc="310" mnc="190">
