@@ -449,6 +449,10 @@ on property:persist.vendor.cnss_diag.enable=true
 on property:persist.vendor.cnss_diag.enable=false
     stop vendor.cnss_diag
 
+on property:sys.boot_completed=1
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 service vendor.cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
    class main
    user system
